@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="mailto:chajisoy11214@ada.edu.az" method="POST">
+    <!-- <form action="/" method="GET">-->
+        <label for="fname">FirstName: </label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name" required /><br />
+
+        <label for="lname">LastName: </label>
+        <input type="text" id="lname" name="lname" placeholder="Enter your last name" /><br />
+        <fieldset>
+            <legend>Choose your gender</legend>
+            <input type="radio" id="male" name="gender" value="MALE" checked />
+            <label for="male">Male</label><br />
+
+            <input type="radio" id="female" name="gender" value="FEMALE" />
+            <label for="female">Female</label> <br />
+
+            <input type="radio" id="other" name="gender" value="OTHER" />
+            <label for="other">Other</label> <br />
+        </fieldset>
+        <fieldset>
+            <legend>Select your favorite fields</legend>
+            <input type="checkbox" id="field_ai" name="field" value="AI" checked />
+            <label for="field_ai">AI</label><br />
+
+            <input type="checkbox" id="field_comp_graph" name="field" value="CompGraph" />
+            <label for="field_comp_graph">Computer Graphics</label><br />
+
+            <input type="checkbox" id="field_iot" name="field" value="IoT" />
+            <label for="field_iot">Internet of Things</label><br />
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
