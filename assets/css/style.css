@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(117, 36, 106);
+}
+
+hr {
+    width: 60%;
+    height: 100px;
+}
+
+h3 {
+    color: pink;
+}
+
+h2 {
+    color: lavender;
+}
+
+p {
+    color: lightblue;
+}
+
+.info {
+    color: aliceblue;
+}
+
+ul.language {
+    list-style-type: square;
+}

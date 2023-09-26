@@ -4,8 +4,12 @@
 <head>
     <title>My Lovely Page</title>
     <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <meta name="description" content="This is my first page where I demonstrate HTML">
     <meta charset="UTF8">
+    <style>
+       
+    </style>
 </head>
 
 <body>
@@ -14,9 +18,9 @@
             <td><img src="./assets./images/profpicture.png" alt="My Profile Picture"></td>
             <td>
                 <h2>Chilanay Hajisoy</h2>
-                <p>Email: chajisoy11214@ada.edu.az</p>
-                <p>Phone: 050-708-88-04</p>
-                <p>Address: Ahmad Jamil</p>
+                <p id="email" class="info">Email: chajisoy11214@ada.edu.az</p>
+                <p id="phone" class="info">Phone: 050-708-88-04</p>
+                <p id="address">Address: Ahmad Jamil</p>
             </td>
         </tr>
     </table>
@@ -48,9 +52,14 @@
     <hr />
 
     <h4>Languages: </h4>
-    <ul type="square">
+    <ul type="circle" class="language">
         <li>Azerbaijani</li>
         <li>English</li>
+        <ul>
+            <li>American</li>
+            <li>British</li>
+            <li>Australian</li>
+        </ul>
         <li>Russian</li>
         <li>German</li>
         <li>Korean</li>
@@ -70,7 +79,7 @@
     </ol>
     <p>Visit my <a href="https://github.com/chilanay/WebMobile1-demo" target="blank">GitHub</a> page for more info</p>
 
-    
+
     <a href="public\about.html" , target="blank">About Me</a>
 </body>
 
