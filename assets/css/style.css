@@ -1,10 +1,10 @@
 body {
-    background-color: rgb(117, 36, 106);
+    background-color: rgb(139, 88, 132);
 }
 
 hr {
-    width: 60%;
-    height: 100px;
+    width: 95%;
+    height: 1px;
 }
 
 h3 {
@@ -17,6 +17,16 @@ h2 {
 
 p {
     color: lightblue;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    background-color: rgb(111, 76, 92);
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(132, 11, 112);
+    padding: 4px 30px 10px;
+    margin: 20px;
+    width:700px;
+    box-sizing: border-box;
 }
 
 .info {
@@ -25,4 +35,34 @@ p {
 
 ul.language {
     list-style-type: square;
+}
+
+ul {
+    font-size: 20px;
+}
+ul.li{
+    font-size: 1em;
+}
+
+a {
+    color: blanchedalmond
+}
+
+a:visited {
+    color: green
+}
+
+a:hover {
+    color: brown;
+    text-decoration: overline;
+}
+
+a:active {
+    color: blueviolet
+}
+.rand_img{
+    border-radius: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
